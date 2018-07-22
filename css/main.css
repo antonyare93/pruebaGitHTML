@@ -5,12 +5,15 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
-<<<<<<< HEAD
 header{
     margin-top: 10px;
+    background-color: #13293D;
+    color: #FDCA40;
+    width: 100%;
+    overflow: hidden;
 }
 .nav_bar{
-    background-color: #FAFAFA;
+    background-color: #006494;
     list-style: none;
     margin: 0;
     padding: 0px 20px;
@@ -27,15 +30,21 @@ header{
     color: #444444;
     text-transform: uppercase;
     text-align: center;
+    line-height: 30px;
 }
 .nav_bar li a:hover{
     text-decoration: none;
     padding: 10px 20px;
     display: inline-block;
-    color: #FAFAFA;
+    color: #06AED5;
     text-transform: uppercase;
-    background-color: #444444;
+    background-color: #133C55;
     font-weight: bold;
+}
+.centrar{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
 }
 .main{
     padding: 30px 10px 0px 20px;
@@ -52,26 +61,7 @@ header{
 }
 p{
     text-align: justify;
-=======
-header h1{
-	display: block;
-	margin: 1px;
-	padding: 1px;
 }
-nav div ul{
-	display: inherit;
-}
-nav div ul li{
-	float: left;
-	list-style: none;
-}
-nav div ul li a{
-	text-transform: uppercase;
-    padding: 20px 40px;
-    text-decoration: none;
-    background: #aaa;
-}
-nav div ul li a:hover{
-    background: #eee;
->>>>>>> d0061c40f0ca350de8ba5ed34327f46b5c196001
+h1 {
+    font-size: 50px
 }
