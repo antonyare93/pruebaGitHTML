@@ -5,6 +5,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+<<<<<<< HEAD
 header{
     margin-top: 10px;
 }
@@ -51,4 +52,26 @@ header{
 }
 p{
     text-align: justify;
+=======
+header h1{
+	display: block;
+	margin: 1px;
+	padding: 1px;
+}
+nav div ul{
+	display: inherit;
+}
+nav div ul li{
+	float: left;
+	list-style: none;
+}
+nav div ul li a{
+	text-transform: uppercase;
+    padding: 20px 40px;
+    text-decoration: none;
+    background: #aaa;
+}
+nav div ul li a:hover{
+    background: #eee;
+>>>>>>> d0061c40f0ca350de8ba5ed34327f46b5c196001
 }
