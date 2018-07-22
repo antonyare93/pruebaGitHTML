@@ -6,7 +6,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 header{
-    margin-top: 10px;
+    padding-top: 15px;
     background-color: #13293D;
     color: #FDCA40;
     width: 100%;
@@ -25,18 +25,19 @@ header{
 .nav_bar li a, a:link{
     width: 100px;
     text-decoration: none;
-    padding: 10px 20px;
     display: inline-block;
     color: #444444;
     text-transform: uppercase;
     text-align: center;
-    line-height: 30px;
+    line-height: 50px;
+    -webkit-transition: 200ms;
+    -o-transition: 200ms;
+    transition: 200ms;
 }
 .nav_bar li a:hover{
     text-decoration: none;
-    padding: 10px 20px;
     display: inline-block;
-    color: #06AED5;
+    color: #C8F3FD;
     text-transform: uppercase;
     background-color: #133C55;
     font-weight: bold;
@@ -51,17 +52,40 @@ header{
 }
 .col1{
     display: inline-block;
-    margin: 0px 10px 0px 0px;
-    width: 45%;
+    margin: 15px 10px 0px 0px;
+    width: 40%;
 }
 .col2{
     display: inline-block;
-    margin: 0px 0px 0px 10px;
-    width: 45%;
+    margin: 15px 0px 0px 10px;
+    width: 40%;
 }
 p{
     text-align: justify;
 }
 h1 {
     font-size: 50px
+}
+.fixed_navbar{
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    width: 100%;
+}
+.init_modal{
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.init_modal a{
+    width: 100%;
+    height: 100%;
+    cursor: default;
+}
+.modal_clicked{
+    display: none;
 }
