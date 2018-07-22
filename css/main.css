@@ -11,6 +11,7 @@ header{
     color: #FDCA40;
     width: 100%;
     overflow: hidden;
+    margin-bottom: 30px;
 }
 .nav_bar{
     background-color: #006494;
@@ -49,6 +50,8 @@ header{
 }
 .main{
     padding: 30px 10px 0px 20px;
+    max-width: 1200px;
+    margin: auto;
 }
 .col1{
     display: inline-block;
@@ -80,6 +83,9 @@ h1 {
     left: 0;
     width: 100%;
     height: 100%;
+    -webkit-transition: 250ms;
+    -o-transition: 250ms;
+    transition: 250ms;
 }
 .init_modal a{
     width: 100%;

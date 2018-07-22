@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'socialmedia';
+  src:  url('socialmedia.eot?y2widi');
+  src:  url('socialmedia.eot?y2widi#iefix') format('embedded-opentype'),
+    url('socialmedia.ttf?y2widi') format('truetype'),
+    url('socialmedia.woff?y2widi') format('woff'),
+    url('socialmedia.svg?y2widi#socialmedia') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="ic-"], [class*=" ic-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'socialmedia' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ic-spotify:before {
+  content: "\e900";
+}
+.ic-facebook:before {
+  content: "\e901";
+}
+.ic-instagram:before {
+  content: "\e902";
+}
+.ic-twitter:before {
+  content: "\e903";
+}
+.ic-youtube:before {
+  content: "\e904";
+}
